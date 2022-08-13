@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+    .navLink {
+        display: none;
+    }
+    .hero-text {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+    }
+    .hero {
+        margin: 0 1rem;
+    }
+    .customers {
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hero {
+        display: block;
+        margin: 0 7rem;
+    }
+    .aboutImg {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 3rem;
+    }
+}

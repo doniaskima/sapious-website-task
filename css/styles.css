@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -sizing: border;
 }
 
 
@@ -140,4 +140,49 @@ span {
 .customer-text {
     font-size: 1.4rem;
     margin-top: 2.5rem;
+}
+
+
+/*  STEPS STYLE */
+
+.section-path {
+    background-color: #fff;
+    padding: 10rem 20rem;
+    align-items: center;
+}
+
+.spanTitle {
+    font-size: 1.5rem;
+    color: #07a3e9;
+    margin-bottom: 1.8rem;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+}
+
+.number-step {
+    font-size: 5rem;
+    color: #555;
+}
+
+.paragraph-step {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.step-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-img {
+    width: 15rem;
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9rem;
 }
