@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER STYLE */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edf9ff;
+}
+
+.sapious-logo {
+    width: 12rem;
+    height: 10rem;
+    margin-left: 4rem;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navLink {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #333;
+    gap: 1rem;
+    font-weight: bold;
+    margin: 1.2rem;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: #07a3e9;
+}
+
+.navBtn {
+    padding: 1.1rem 2.3rem;
+    color: #fff;
+    background-color: #07a3e9;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+
+/* HERO STYLE */
+
+.heroSection {
+    background-color: #edf9ff;
+    padding: 5rem 0 10rem 0;
+}
+
+.hero {
+    padding: 0 3.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9rem;
+    max-width: 140rem;
+    align-items: center;
+    margin: 0 15rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.hero-text {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.customers {
+    display: flex;
+    gap: 3rem;
+}
+
+.customers-imgs {
+    display: flex;
+}
+
+.customers-imgs img {
+    border-radius: 50px;
+    margin-right: -1.5rem;
+    border: 3px solid #07a3e9;
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 10px;
+}
+
+.hero-img {
+    width: 35rem;
+    height: 30rem;
+}
+
+.btns {
+    display: flex;
+    gap: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.btns a {
+    text-decoration: none;
+}
+
+.btn-left {
+    background-color: #07a3e9;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-right {
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+span {
+    color: #07a3e9;
+    font-weight: 700;
+}
+
+.customer-text {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+}
