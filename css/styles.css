@@ -326,3 +326,120 @@ span {
 .detail {
     font-size: 1.1rem;
 }
+
+.text-underPrices {
+    color: #555;
+    font-size: 1.7rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.box {
+    margin: 2.6rem;
+}
+
+.box-icon {
+    margin-top: 2rem;
+    background-color: #edf9ff;
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+    border-radius: 50%;
+}
+
+.box-title {
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.box-text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
+/* GET IN TOUCH */
+
+.get-in-touch {
+    padding: 6rem 0 12.5rem;
+}
+
+.get-in-touch-box {
+    grid-template-columns: 2fr 1fr;
+    background-color: #edf9ff;
+    display: grid;
+    border-radius: 12px;
+    box-shadow: 0px 4px 13px 10px rgba(0, 0, 0, 0.15);
+}
+
+.coding-img {
+    background-image: url("../img/coding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.get-in-touch-text {
+    padding: 5rem 6rem 6rem 6rem;
+    color: #555;
+}
+
+.get-in-touch-paragraph {
+    font-size: 1.5rem;
+}
+
+.get-in-touch-title {
+    padding-top: 1.4rem;
+    font-size: 3.1rem;
+    color: #07a3e9;
+}
+
+.get-in-touch-text {
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.get-in-touch-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.get-in-touch-form label {
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.get-in-touch-form input {
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    ;
+}
+
+.get-in-touch-form select {
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.btn_form {
+    background-color: #07a3e9;
+    color: #edf9ff;
+    padding: 1.3rem;
+    align-self: end;
+}
+
+.btn_form:hover {
+    color: #07a3e9;
+    background-color: #fff;
+}
+
+.footer {
+    padding: 12rem 0;
+}
