@@ -227,24 +227,28 @@ span {
     height: 5rem;
     object-fit: cover;
     border-radius: 50px;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.3rem;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
-    padding: 1.6rem;
+    padding: 1.4rem;
+    gap: 1rem;
 }
 
 .fotos {
-    overflow: hidden;
-    height: 25rem;
+    height: 20rem;
 }
 
 .fotos img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
+    transition: all .3s ease;
+}
+
+.fotos img:hover {
+    transform: scale(1.1);
 }
