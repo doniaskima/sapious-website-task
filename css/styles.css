@@ -252,3 +252,77 @@ span {
 .fotos img:hover {
     transform: scale(1.1);
 }
+
+
+/* STYLE PRICING */
+
+.price {
+    padding: 10rem 0;
+}
+
+.frontend {
+    align-items: center;
+    border-radius: 10px;
+    width: 30rem;
+    height: 41rem;
+    border: 2px solid #edf9ff;
+    padding: 3rem 6rem;
+    margin-left: 22rem;
+}
+
+.title-pricing {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #07a3e9;
+    margin-bottom: 3rem;
+}
+
+.dollar-price {
+    color: #333;
+    font-weight: 500;
+    font-size: 4rem;
+    margin-bottom: 1.3rem;
+    margin-left: 4.5rem;
+}
+
+.frontend span {
+    color: #333;
+    font-size: 2.2rem;
+    margin-right: 0.6rem;
+}
+
+.text-price {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    color: #555;
+}
+
+.list {
+    margin-bottom: 3rem;
+}
+
+.fullstack {
+    background-color: #edf9ff;
+    align-items: center;
+    border-radius: 10px;
+    width: 30rem;
+    height: 41rem;
+    border: 2px solid #edf9ff;
+    padding: 3rem 6rem;
+}
+
+.fullstack span {
+    color: #333;
+    font-size: 2.2rem;
+    margin-right: 0.6rem;
+}
+
+.grid--price {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.detail {
+    font-size: 1.1rem;
+}
